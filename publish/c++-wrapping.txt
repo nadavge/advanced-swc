@@ -41,6 +41,7 @@ a string. ::
    
      // run the actual function
      result = hello(input);
+     free(input);
    
      // build the resulting string into a Python object.
      ret = PyString_FromString(result);
